@@ -132,7 +132,7 @@ function Dashboard({ user, onLogout }) {
   const [form, setForm] = useState({
     name: "", category: "Identity", issueDate: "", expiryDate: ""
   });
-    const API_URL = "https://doctracker-3.onrender.com";
+    const API_URL = "https://doctracker-3.onrender.com/api/documents";
 
   useEffect(() => {
     fetchDocuments();
