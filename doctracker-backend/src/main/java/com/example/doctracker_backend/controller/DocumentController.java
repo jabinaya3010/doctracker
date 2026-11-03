@@ -12,7 +12,7 @@ import com.example.doctracker_backend.service.DocumentService;
 
 @RestController
 @RequestMapping("/api/documents")
-@CrossOrigin(origins = {"http://localhost:5173" ,"https://document-tracker-liart.vercel.app/"})
+@CrossOrigin(origins = {"http://localhost:5173" ,"https://document-tracker-liart.vercel.app"})
 public class DocumentController {
 
     private final DocumentService service;
